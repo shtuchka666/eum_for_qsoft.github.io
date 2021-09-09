@@ -1,0 +1,273 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.logo{
+  position: absolute;
+  height: 19px;
+  width: 19px;
+  border: 5px solid #121920;
+  border-color: #121920 transparent #121920 #121920;
+  border-radius: 50%;
+  transform: rotate(52deg);
+  margin: 25px auto auto 135px;
+}
+.logo:before {
+  content: '';
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 16px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #121920;
+}
+.logo:after {
+  content: '';
+  position: absolute;
+  margin-top: -1px;
+  margin-left: 16px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #121920;
+}
+.logo_red-circle{
+  content: '';
+  position: absolute;
+  margin: 6px auto auto 19px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #F95A59;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
+  background: url(https://academy.qsoft.ru/images/qsoft_logo.svg) no-repeat 175px 31px;
+  background-size: 97px;
+}
+.search{
+  margin: 20px auto auto 331px;
+  height: 40px;
+  width: 152%;
+  border: 1px solid #EBEBF1;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: url('http://heartlandpreciousmetals.com/wp-content/plugins/woocommerce-dual-picture-display/images/zoom-icon.png?84409a') no-repeat 100% 50%;
+}
+input::-webkit-input-placeholder {
+  color: #BBC4D6;
+  font: 14px/16px 'Roboto', sans-serif;
+  padding-left: 39px;
+}
+.magnifying-glass {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  box-sizing: border-box;
+  background-color: aliceblue;
+  border: 1px solid #768298;
+  border-radius: 50%;
+  margin: 32px auto auto 344px;
+}
+.magnifying-glass:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 6px;
+  height: 1px;
+  background-color: slategray;
+  border-radius: 0 15px 15px 0;
+  transform-origin: 0 50%;
+  transform: translateX(100%) rotate(45deg);
+}
+.profile{
+  display: flex;
+  align-items: center;
+  width: 285px;
+  color: #768298;
+  border-left: 1px solid #EBEBF1;
+}
+.profile__name{
+  padding-left: 20px;
+  padding-right: 14px;
+  font: 14px 'Roboto', sans-serif;
+}
+.profile__avatar{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #768298;
+}
+.profile__logo{
+  display: none;
+  content: '';
+  position: absolute;
+  margin: 86px auto auto 88.7%;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #34AADD;
+  border-color: #34AADD transparent transparent #34AADD;
+  transform: rotate(45deg);
+}
+.profile__logo:before{
+  display: none;
+  content: '';
+  position: absolute;
+  margin: -9px auto auto -9px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 2px solid #34AADD;
+}
+.main{
+  margin: 70px auto auto 135px;
+}
+.main__head{
+  font: 35px/57px 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #121920;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.main__info{
+  display: flex;
+  flex-wrap: wrap;
+}
+.partner{
+  border: 1px solid #EBEBF1;
+  border-radius: 5px;
+  width: 268px;
+  height: 118px;
+  margin: 0 30px 30px 0;
+}
+.partner:hover{
+  box-shadow: -3px 0px 40px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(164, 164, 164, 0.03);
+  cursor: url(https://pngimg.com/uploads/cursor/cursor_PNG100.png), pointer;
+}
+.partner_henkel{
+  background: url(https://www.henkel.ru/resource/blob/737324/1129f40d0df611e51758a0d35e6cab78/data/henkel-logo-standalone-svg.svg) no-repeat center;
+}
+.partner_john{
+  background: url(https://upload.wikimedia.org/wikipedia/ru/thumb/c/cf/John_Deere_logo.svg/834px-John_Deere_logo.svg.png) no-repeat center;
+  background-size: 90%;
+}
+.partner_mac{
+  background: url(https://www.meme-arsenal.com/memes/6e0b92179352a3b8e58b590113fc585b.jpg) no-repeat center;
+  background-size: 30%;
+}
+.partner_ikea{
+  background: url(https://www.sostav.ru/images/news/2019/04/12/s5ojjtcp.jpg) no-repeat center;
+  background-size: 90%;
+}
+.partner_reebok{
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Reebok_delta_logo.svg/750px-Reebok_delta_logo.svg.png) no-repeat center;
+  background-size: 80%;
+}
+.partner_nike{
+  background: url(https://brandwiki.ru/up/news/article/210508_456_thumb.jpg) no-repeat center;
+  background-size: 90%;
+}
+.partner_caterpillar{
+  background: url(http://www.tlt-scand.ru/wp-content/uploads/2019/09/caterpillar-300x98.jpg) no-repeat center;
+  background-size: 90%;
+}
+@media (min-width: 1130px) and (max-width: 1390px){
+  .search{
+    width: 100%;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1130px){
+  .search{
+    width: 80%;
+  }
+}
+@media (min-width: 900px) and (max-width: 1024px){
+  .search{
+    width: 50%;
+  }
+}
+@media (min-width: 720px) and (max-width: 900px){
+  .logo{
+    margin: 25px auto auto 20px;
+  }
+  .header{
+    background-position: 60px 31px;
+    background-size: 98px;
+  }
+  .search{
+    margin-left: 185px;
+    width: 344px;
+  }
+  .magnifying-glass {
+    margin-left: 199px;
+  }
+  .profile{
+    width: 188px;
+  }
+  .main{
+    margin-left: 20px;
+  }
+  .main__head{
+    font-size: 28px;
+    line-height: 45px;
+  }
+  .partner{
+    width: 227px;
+    height: 118px;
+    margin: 0 20px 20px 0;
+  }
+}
+@media (max-width: 720px){
+  .profile__name, .profile__avatar{
+    display: none;
+  }
+  .logo{
+    margin: 17px auto auto 21px;
+  }
+  .header{
+    flex-direction: column-reverse;
+    height: 105px;
+    background-position: 61px 23px;
+    background-size: 98px;
+    padding-left: 0;
+  }
+  .search{
+    margin: 0px;
+    width: 100%;
+    height: 42px;
+    border-color: #BBC4D6 transparent transparent transparent;
+    border-radius: 0;
+  }
+  input::-webkit-input-placeholder {
+    padding-left: 48px;
+  }
+  .magnifying-glass {
+    margin: 13px auto auto 23px;
+  }
+  .profile__logo, .profile__logo:before{
+    display: block;
+  }
+  .profile__name, .profile__avatar{
+    display: none;
+  }
+  .main{
+    margin-left: 20px;
+    margin-right: auto;
+  }
+  .main__head{
+    font-size: 28px;
+    line-height: 45px;
+  }
+  .partner{
+    width: 333px;
+    height: 138px;
+    margin: 0 20px 20px 0;
+  }
+}
